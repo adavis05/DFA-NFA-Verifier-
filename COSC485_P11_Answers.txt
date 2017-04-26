@@ -1,0 +1,6 @@
+ababa : was accepted by DFA
+abbaba : was accepted by DFA
+abbab : was accepted by DFA
+aaaab : was not accepted by DFA
+abbbb : was not accepted by DFA
+babaa : was not accepted by DFA

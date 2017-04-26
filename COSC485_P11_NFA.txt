@@ -1,0 +1,13 @@
+M = { States, Alphabet, Transition Functions, Starting State, Final States }
+where, 
+States = { q0, q1, q2 }, 
+Alphabet = { a, b }, 
+Starting State = q0, 
+Final States = { q0, q2 },
+Transition Functions = {
+	( q0, a, q1 ),
+	( q1, b, q2 ),
+	( q2, a, q0 ), 
+	( q2, b, q0 ),
+	( q2, e, q0 )
+}
